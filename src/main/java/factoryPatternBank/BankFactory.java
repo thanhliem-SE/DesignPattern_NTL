@@ -1,7 +1,7 @@
 package factoryPatternBank;
 
 public class BankFactory{
-    public static Bank getBank(String type, String serviceInfo, String promotionInfo){
+    public static Bank getBankFactory(String type, String serviceInfo, String promotionInfo){
         if(type.equalsIgnoreCase("ACB"))
             return new ACB(serviceInfo, promotionInfo);
         else if(type.equalsIgnoreCase("Sacombank"))

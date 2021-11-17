@@ -1,7 +1,7 @@
 package factoryPatternCar;
 
 public class CarFactory {
-    public static Car getCar(String information, String configuration, String producer, String technicalFeatures) {
+    public static Car getCarFactory(String information, String configuration, String producer, String technicalFeatures) {
         if (producer.equalsIgnoreCase("Honda")) {
             return new Honda(information, configuration, producer, technicalFeatures);
         } else if (producer.equalsIgnoreCase("Nexus")) {
