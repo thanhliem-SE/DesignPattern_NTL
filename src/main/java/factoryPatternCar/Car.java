@@ -1,4 +1,4 @@
-package carExercise;
+package factoryPatternCar;
 
 public abstract class Car {
     public abstract String getInformation();
@@ -11,7 +11,7 @@ public abstract class Car {
 
     @Override
     public String toString() {
-        return "Honda{" +
+        return "Car{" +
                 "information='" + getInformation() + '\'' +
                 ", configuration='" + getConfiguration() + '\'' +
                 ", producer='" + getProducer() + '\'' +

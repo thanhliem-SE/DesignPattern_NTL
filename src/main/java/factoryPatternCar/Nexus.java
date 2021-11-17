@@ -1,12 +1,12 @@
-package carExercise;
+package factoryPatternCar;
 
-public class Toyota extends Car {
+public class Nexus extends Car{
     private String information;
     private String configuration;
     private String producer;
     private String technicalFeatures;
 
-    public Toyota(String information, String configuration, String producer, String technicalFeatures) {
+    public Nexus(String information, String configuration, String producer, String technicalFeatures) {
         this.information = information;
         this.configuration = configuration;
         this.producer = producer;

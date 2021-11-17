@@ -1,4 +1,4 @@
-package carExercise;
+package factoryPatternCar;
 
 public class Honda extends Car {
     private String information;

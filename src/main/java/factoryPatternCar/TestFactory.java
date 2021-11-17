@@ -1,4 +1,4 @@
-package carExercise;
+package factoryPatternCar;
 
 public class TestFactory {
     public static void main(String[] args) {

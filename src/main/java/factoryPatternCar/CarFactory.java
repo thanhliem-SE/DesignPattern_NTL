@@ -1,4 +1,4 @@
-package carExercise;
+package factoryPatternCar;
 
 public class CarFactory {
     public static Car getCar(String information, String configuration, String producer, String technicalFeatures) {
